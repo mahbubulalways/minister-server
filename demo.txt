@@ -1,0 +1,10 @@
+npm init --y
+
+npm i express mongoose cors dotenv 
+npm i type script dev dependencies
+tsc -init
+find rootDir src outDir dist
+
+connect DB in server.ts
+config , dotenv.config({path:path.cwd(), ".env})
+then use prettier
